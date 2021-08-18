@@ -33,6 +33,6 @@ app.post("/",function(req,res){
 });
 app.use(express.static("public"));
 
-app.listen(4000,function(){
+app.listen(process.env.PORT || 4000, function(){
     console.log("Your local server has been created");
 });
