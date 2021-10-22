@@ -1,4 +1,4 @@
-// beck-end codes
+// back-end codes
 
 const express = require("express");
 const { read } = require("fs");
